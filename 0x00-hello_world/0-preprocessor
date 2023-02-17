@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o output_$CFILE input_c 
+gg -e $CFILE c
