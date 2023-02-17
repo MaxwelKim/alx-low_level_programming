@@ -1,2 +1,4 @@
 #!/bin/bash
-#include <stdio.h>
+
+gcc -o output_$CFILE input_c 
+
