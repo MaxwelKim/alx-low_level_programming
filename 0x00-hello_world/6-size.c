@@ -9,5 +9,5 @@ printf("The size of long long is %ld bytes\n", sizeof(long long));
 printf("The size of float is %ld bytes\n", sizeof(float));
 printf("The size of double is %ld bytes\n", sizeof(double));
 printf("The size of long double is %ld bytes\n", sizeof(long double));
-return 0;
+return (0);
 }
