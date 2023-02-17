@@ -1,2 +1,1 @@
-# alx-low_level_programming
-starting c programming
+adding script that runs a c file through the processor
