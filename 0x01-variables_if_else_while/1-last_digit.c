@@ -20,7 +20,7 @@ else if (last_digit == 0)
 {
 printf("0 and is 0\n");
 }
-else
+whilei
 {
 printf("%d and is less than 6 and not 0\n", last_digit);
 }
