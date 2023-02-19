@@ -5,15 +5,10 @@
 */
 int main(void)
 {
-char az;
-if
-(az = 'a');
-else
-(az <= 'z');
-else
-(az++;)
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-putchar(az);
+putchar(letter);
 }
 putchar('\n');
 return (0);
