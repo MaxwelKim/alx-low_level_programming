@@ -8,23 +8,22 @@
 int main(void)
 {
 int n;
-srand(time(NULL));
-n = rand();
-int last_digit = n % 10;
-printf("Last digit of %d is ", n);
+int a;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+a = n % 10;
 if
-(last_digit > 5)
+(n > 5)
 {
-printf("and is greater than 5\n");
-}
+printf("Last digit of %d is %d and is greater than 5\n", n, a);
 else if
-(last_digit == 0)
+(a == 0)
 {
-printf("and is 0\n");
+printf("last digit of %d and is 0\n", n, a);
 }
 else
 {
-printf("and is less than 6 and not 0\n");
-}    
-return 0;
+printf("last digit of %d is %d and is less than 6 and not 0\n", n, a);
+}
+return (0);
 }
