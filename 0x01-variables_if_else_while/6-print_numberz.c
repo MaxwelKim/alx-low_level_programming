@@ -16,5 +16,6 @@ putchar(0);
 (8);
 (9);
 putchar('n');
+{
 return (0);
 }
