@@ -2,27 +2,30 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main - Program will assign a random number
+*main - program will assign a random number to the variable
 *Return: Always 0
 */
 int main(void)
 {
-int n, last_digit;
+int n;
 srand(time(NULL));
-n = rand() % 1000 + 1;
-last_digit = n % 10;
+n = rand(number)
+int last_digit = n % 10;
 printf("Last digit of %d is ", n);
-if (last_digit > 5)
+if
+(last_digit > 5)
 {
-printf("%d and is greater than 5\n", last_digit);
-}
-else (last_digit == 0)
-{
-printf("0 and is 0\n");
+printf("and is greater than 5\n");
 }
 else if
+(last_digit == 0, n)
 {
-printf("%d and is less than 6 and not 0\n", last_digit);
+printf("and is 0\n");
+}
+else
+(last digit < 6 and not 0, n)
+{
+printf("and is less than 6 and not 0\n");
 }
 return (0);
 }
