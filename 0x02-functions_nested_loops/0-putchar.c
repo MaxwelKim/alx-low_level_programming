@@ -4,9 +4,10 @@
  * _putchar - print _putchar, followed by new line
  * Return: Always 0
  */
-int _putchar(void)
+int main(void);
 {
-return (write(1, &c, 1));
+{
+char (_, p, u, t, c, h, e, r);
 }
 _putchar('_');
 _putchar('p');
