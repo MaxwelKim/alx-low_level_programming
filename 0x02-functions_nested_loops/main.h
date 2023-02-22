@@ -1,11 +1,6 @@
-#include <main.h>
-#include <stdio.h>
-/**
- * main - print _putchar, followed by new line
- * Return: 0
- */
-int main(void)
-{
-printf("_putchar\n");
-return (0);
-}
+#ifndef MAIN_H
+#define MAIN_H
+
+0. _putchar
+
+#endif
