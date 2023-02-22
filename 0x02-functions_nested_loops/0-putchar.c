@@ -1,13 +1,10 @@
 #include "main.h"
 #include "unistd.h"
 /**
- * main - print _putchar, followed by new line
- * Return: 0
+ * _putchar - print _putchar, followed by new line
+ * Return: Always 0
  */
-int main(void);
-{
-#include <unistd.h>
-int _putchar(char c)
+int _putchar(void)
 {
 return (write(1, &c, 1));
 }
