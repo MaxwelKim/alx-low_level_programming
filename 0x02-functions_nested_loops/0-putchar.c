@@ -5,8 +5,7 @@
  * Return: Always 0 (Success)
 */
 int main(void) ; 
-({ 
-	char Character = (_); (p) ; (u) ; (t) ; (c) ; (h) ; (a) ; (r)
+char Character = (_); (p) ; (u) ; (t) ; (c) ; (h) ; (a) ; (r)
 {
 	_putchar('_');
 	_putchar('p');
@@ -19,4 +18,3 @@ int main(void) ;
 	_putchar('\n');
 }
 return (0);
-})
