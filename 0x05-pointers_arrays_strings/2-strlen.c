@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * function that returns the length of a string
+ * Main-function that returns the length of a string
  * Return: int containing the converted number
  */
 int _strlen(char *s)
