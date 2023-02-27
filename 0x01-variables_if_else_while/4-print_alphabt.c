@@ -1,24 +1,22 @@
 #include <stdio.h>
+
 /**
-*main - program that prints the alphabet in lowercase, followed by a new line
-*Return: Always 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char letter;
-for
-(letter = 'a');
-else
-(letter <= 'z');
-else
-(letter++)
-{
-if
-(letter != 'q' && letter != 'e')
-{
-putchar(letter);
-}
-}
-putchar('\n');
-return (0);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		if (c != 'q' && c != 'e')
+			putchar(c);
+
+		c++;
+	}
+	putchar('\n');
+
+	return (0);
 }
