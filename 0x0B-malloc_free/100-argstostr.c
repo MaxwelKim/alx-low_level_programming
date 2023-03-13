@@ -36,7 +36,7 @@ while (i < ac)
 j = 0;
 while (av[i][j])
 {
-arg[k] = av[i][j]
+arg[k] = av[i][j];
 j++;
 k++;
 }
