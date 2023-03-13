@@ -45,6 +45,7 @@ for (i = 0; i <= len; i++)
 if (str[i] == ' ' || str[i] == '\0')
 {
 if (c)
+{
 end = i;
 tmp = (char *) malloc(sizeof(char) * (c + 1));
 if (tmp == NULL)
