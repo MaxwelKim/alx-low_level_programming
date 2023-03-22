@@ -1,53 +1,66 @@
-#include "3-calc.h"
-#include "function_pointers.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * op_add - adds two integers
- * @a: first integer
- * @b: second integer
- * Return: integer
+ * op_add - addition
+ * @a: sumnd 1
+ * @b: sumnd 2
+ * Return: rsult
  **/
 int op_add(int a, int b)
 {
 return (a + b);
 }
 /**
- * op_sub - subtracts two integers
- * @a: first integer
- * @b: second integer
- * Return: integer
+ * op_sub - subtraction
+ * @a: minuend
+ * @b: sustrnd
+ * Return: result
  **/
 int op_sub(int a, int b)
 {
 return (a - b);
 }
-
 /**
- * op_mul - multiplies two integers
- * @a: first integer
- * @b: second integer
- * Return: integer
+ * op_mul - multiplication
+ * @a: multp 1
+ * @b: multp 2
+ * Return: result
  **/
+
 int op_mul(int a, int b)
 {
 return (a * b);
 }
 /**
- * op_div - divides two integers
- * @a: first integer
- * @b: second integer
- * Return: integer
+ * op_div - division
+ * @a: divisr
+ * @b: dividndo
+ * Return: reult
  **/
 int op_div(int a, int b)
 {
+if (b)
+{
 return (a / b);
 }
+printf("Error\n");
+exit(100);
+}
+
 /**
- * op_mod - returns the modulus of two integers
- * @a: first integer
- * @b: second integer
- * Return: integer
+ * op_mod - modulo
+ * @a: vaper 1
+ * @b: vaper 2
+ * Return: result
  **/
 int op_mod(int a, int b)
 {
+if (b)
+{
 return (a % b);
 }
+printf("Error\n");
+exit(100);
+}
+
