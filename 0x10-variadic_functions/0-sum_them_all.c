@@ -5,11 +5,7 @@
  * main - function that returns the sum of all its parameters
  * Return: 0 success
  **/
-int main(void)
-{
-int char n;
-int char sum_them_all;
-}
+
 int sum_them_all(const unsigned int n, ...)
 {
 int sum = 0;
