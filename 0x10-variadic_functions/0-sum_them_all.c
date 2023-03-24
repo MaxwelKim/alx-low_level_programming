@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <variadic_functions.h>
+#include <stdio.h>
 /**
  * main - function that returns the sum of all its parameters
  * Return: 0 success
