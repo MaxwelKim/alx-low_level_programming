@@ -5,10 +5,12 @@
  * main - function that returns the sum of all its parameters
  * Return: 0 success
  **/
-
-int sum_them_all(const unsigned int n, ...)
-i
+int main(void);
+{
+int sum_them_all(const unsigned int n, ...);
+char = n;
 int sum = 0;
+int char n = 0;
 va_list args;
 va_start(args, n);
 for (unsigned int i = 0; i < n; i++)
