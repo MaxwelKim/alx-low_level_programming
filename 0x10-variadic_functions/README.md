@@ -1,3 +1,1 @@
-project files for vardic functions
-project files for vardic functions
-
+0.Beauty is variable, ugliness is constant
