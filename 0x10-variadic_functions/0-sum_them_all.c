@@ -1,26 +1,20 @@
 #include <stdarg.h>
-#include <stdio.h>
 /**
- * sum_them_all - function that returns the sum of all its parameters
- * @n: number of parameters
- * Return: sum of parameters
+ * sum_them_all - functions that takes unrevocked number of arguments
+ * and sum them
+ * @n: the first argument
+ * Return: sum and 0 if n is o
  **/
 int sum_them_all(const unsigned int n, ...)
 {
-int sum = 0;
-va_list args;
-va_start(args, n);
-if (unsigned int i = 0; i < n; i++)
+unsigned int sum = 0, i;
+va_list ap;
+va_start(ap, n);
+if (n == 0)
+return (0);
+for (i = 0; i < n; i++)
 {
-sum += va_arg(args, int);
+sum += va_arg(ap, int);
 }
-va_end(args);
 return (sum);
 }
-int main(void)
-{
-int result = sum_them_all(4, 1, 2, 3, 4);
-printf("Result: %d\n", result);
-return (0);
-}
-
