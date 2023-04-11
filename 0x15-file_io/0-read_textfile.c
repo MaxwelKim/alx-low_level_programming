@@ -9,7 +9,7 @@
  * to the POSIX standard output.
  * Return: the actual number of letters it could read and print, 0 otherwise
  **/
-ssize_t read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters);
 {
 ssize_t file, let, w;
 char *text;
