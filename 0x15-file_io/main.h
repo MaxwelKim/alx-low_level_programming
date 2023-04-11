@@ -1,4 +1,4 @@
-#ifndef MAIN_HO
+#ifndef MAIN_iO
 #define MAIN_H
 
 #include <sys/types.h>
