@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * binary_to_uint - Entry Point
- * @b: const char
+ * binary_to_uint - beggining of code
  * Return: 0
  **/
 unsigned int binary_to_uint(const char *b)
